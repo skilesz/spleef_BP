@@ -1,0 +1,37 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "Universe 9 - Spleef",
+      "description": "This module will provide Universe 9 with a spleef minigame!",
+      "uuid": "90ab2a3e-85e9-491e-9456-a19e7e0952cd",
+      "version": [1, 0, 1],
+      "min_engine_version": [1, 16, 210]
+  
+    },
+    "modules": [
+      {
+        "description": "Behaviors for Universe 9 - Spleef",
+        "type": "data",
+        "uuid": "8db60f6b-9f3b-43af-89a4-2b7f82c38921",
+        "version": [1, 0, 0]
+      },
+      {
+        "uuid": "b0a55071-a630-448f-b04e-d559a3ff84a1",
+        "version": [1, 0, 0],
+        "type": "script",
+        "language": "javascript",
+        "entry": "scripts/index.js"
+      }
+    ],
+    "dependencies": [
+          {
+              "module_name": "mojang-minecraft",
+              "version": "1.0.0-beta"
+          },
+      {
+              "module_name": "mojang-minecraft-ui",
+              "version": "1.0.0-beta"
+          }
+    ]
+  }
+  
