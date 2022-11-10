@@ -1,3 +1,4 @@
 pack.name=Universe 9 - Spleef
 pack.description=A spleef minigame for Universe 9!
 item.spleef:coordinator=Coordinator
+item.spleef:spleef_remote=Spleef Remote

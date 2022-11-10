@@ -1,0 +1,28 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "spleef:spleef_remote"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:foil": true,
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "spleef.spleef_remote"
+			},
+			"minecraft:use_duration": 32,
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "spleef:swing_event",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"spleef:swing_event": {
+				"swing": {}
+			}
+		}
+	}
+}
