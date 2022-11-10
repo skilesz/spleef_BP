@@ -195,7 +195,6 @@ function endGame() {
     if (currentPlayers.length > 1) {
         return;
     } else {
-        world.say('Game ended');
         currentPlayers[0].runCommand('titleraw @s times 10 60 10');
         currentPlayers[0].runCommand('titleraw @s title {"rawtext":[{"text":"§6§lWINNER!!"}]}');
         world.say('§6§l[SPLEEF]§r: §l' + currentPlayers[0].name + ' §rhas won a game of spleef!');
